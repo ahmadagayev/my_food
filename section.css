@@ -1,0 +1,32 @@
+.section{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section .card{
+    width: 23%;
+    height: 35rem;
+    text-align: center;
+    margin-bottom: 40px;
+    /* border: 1px solid black; */
+}
+
+.section .card h3{
+    font-weight: 500;
+    margin: 10px 0;
+}
+.section .card p{
+    font-weight: 400;
+    margin: 10px 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section .card img{
+    width: 100%;
+}
