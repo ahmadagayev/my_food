@@ -30,3 +30,17 @@ section .card{
 .section .card img{
     width: 100%;
 }
+
+@media screen and (max-width: 600px)  {
+    .section{
+        display: flex;
+        flex-direction: column;        
+    }
+    section .card{
+        width: 80%;
+        height: initial;
+        margin:0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+  }
